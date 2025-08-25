@@ -11,6 +11,7 @@
 - ✔ 支持 TOTP 动态码管理  
 - ✔ 支持 **导出 / 导入配置**（二维码、密钥、JSON）  
 - ✔ 兼容 **Google Authenticator**，支持批量导入与导出（二维码 / `otpauth-migration` 格式）  
+- ✔ 支持 Ctrl + k [ Ctrl + / ] 可唤醒搜索栏
 
 ### 🔐 端口敲门客户端
 - ✔ 可配置服务器地址与敲门端口  
