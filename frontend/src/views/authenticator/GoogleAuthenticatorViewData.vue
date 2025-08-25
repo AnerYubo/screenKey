@@ -30,7 +30,7 @@
     <n-tab-pane name="url" tab="url">
       <n-input disabled :value="url[page-1] || ''" readonly>
         <template #suffix>
-          <n-button size="tiny" type="primary" ghost @click="copysecret"
+          <n-button size="tiny" type="primary" ghost @click="copysecret(url[page-1])"
             >复制</n-button
           >
         </template>
@@ -130,9 +130,9 @@ const handleDownloadQRCode = () => {
   }
 };
 
-function copysecret() {
-  if (!data.value) return;
-  navigator.clipboard.writeText(data.value.secret);
+function copysecret(url: string) {
+  if (!url) return;
+  navigator.clipboard.writeText(url);
   message.success("url已复制");
 }
 function chunkArray<T>(array: any[], size: number): any[][] {
