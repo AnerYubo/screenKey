@@ -1,0 +1,27 @@
+@import './theme.css';
+
+
+html {
+    background-color: var(--color-bg);
+    text-align: center;
+    color: var(--color-text);
+}
+
+body {
+    margin: 0;
+    user-select: none;
+}
+
+
+
+#app {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 13px;
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+

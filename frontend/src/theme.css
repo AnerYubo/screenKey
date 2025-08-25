@@ -1,0 +1,20 @@
+
+/* 默认亮色主题 */
+:root {
+  --color-bg: #f0f0f0;
+  --color-bg-main: #fff;
+  --color-text: #000000;
+  --color-card: #ffffff;
+  --color-border: #e0e0e0;
+  --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 暗色主题 */
+[data-theme="dark"] {
+  --color-bg: #313131;
+  --color-bg-main: #000;
+  --color-text: #fff;
+  --color-card: #2b2b2b;
+  --color-border: #444444;
+  --box-shadow: 0 4px 12px rgba(255, 255, 255, 0.15);
+}
